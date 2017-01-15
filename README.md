@@ -1,5 +1,5 @@
-# OSMC Android TV Key layout file
-This is a simple Android key layout file to allow all the OSMC RF remote control buttons to work with Kodi on Android TV as by default the 'info' and 'menu' buttons did nothing.
+# OSMC RF remote Android TV key layout file
+This is a simple Android key layout file to allow all the OSMC RF remote control buttons to work with Kodi on Android TV, since by default the 'info' and 'menu' buttons didn't work in Kodi.
 This also makes the 'home' button on the remote go to the Android TV home screen.
 
 
