@@ -10,8 +10,7 @@ This also does require you have root privilages to copy the file into the key la
 
 
 ## Installation
-The .kl file should be copied into `/system/usr/keylayout/`
-As per https://source.android.com/devices/input/key-layout-files.html the file is named by device vendor ID and product ID, like so: `Vendor_XXXX_Product_XXXX.kl`
+The .kl file should be copied into `/system/usr/keylayout/`, as per https://source.android.com/devices/input/key-layout-files.html the file is named by device vendor ID and product ID, like so: `Vendor_XXXX_Product_XXXX.kl`
 (I found this by doing `cat /proc/bus/input/devices` and the device was called `HBGIC Technology Co., Ltd. USB Keyboard Mouse`)
 
 You also need to ensure the file has the correct permissions, so use: `chmod 644 Vendor_2252_Product_1037.kl`
